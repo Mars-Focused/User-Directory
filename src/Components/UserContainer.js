@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
+import UserDetail from './UserDetail'
 // import UserList from './UserList'
-// import UserDetail from './UserDetail'
 // import User from './User'
 
 class UserContainer extends Component {
@@ -10,7 +10,9 @@ class UserContainer extends Component {
 
     render(){
         return( <div className='user-container'>
-            <h1>This Is the REDACTED Container</h1>
+            <h1>This Is the User Container</h1>
+            <UserDetail/>
+            {/* <UserList/> */}
         </div>)
     }
 }
