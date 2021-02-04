@@ -1,14 +1,14 @@
-import './App.css';
-import Header from './Components/Header.js'
-import UserContainer from './Components/UserContainer'
-
-//This part is essentially done. any changes to Header or UserContainer will change our page!!!
+import "./App.css";
+import PeopleList from "./Components/PeopleList";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <UserContainer/>
+      <header className="App-header">
+        <div>
+          <PeopleList />
+        </div>
+      </header>
     </div>
   );
 }
