@@ -30,7 +30,7 @@ export default class PeopleList extends Component {
     });
     return (
       <div>
-        <h1 className="dark-text">people list</h1>
+        <h1 className="dark-text">User Directory</h1>
 
         {mappedPeople[this.state.counter]}
         <div>
